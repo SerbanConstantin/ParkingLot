@@ -1,0 +1,26 @@
+Design a Parking Lot
+
+- Ability to tell when a spot is available or unavailable
+- Regular and handicap spaces
+
+* Any car can park in a regular space, and cars with a handicap identifier can park in handicap spaces
+* However, if handicapped spaces are available, handicapped cars should park in those first
+* Each parking spot has a size: small, medium, large
+* There are three types of vehicles: small(bikes), medium(car) and large(truck)
+* A small vehicle can park in a small, medium or large spot
+* A medium vehicle can park in a medium or large spot
+* A large vehicle ca park in a large spot
+
+ Test Case
+
+ - Consider a parking lot with 48 available spaces
+ - 10 large regular spaces,
+ - 24 medium regular spaces,
+ - 9 small regular spaces,
+ - 5 medium handicapped spaces
+
+ We get the following order of vehicles:
+ - 6 handicapped cars, - 8 regular trucks, - 3 regular cars, - 1 handicapped truck, - 1 regular truck, - 1 handicapped truck,
+ - 3 regular bikes, - 1 regular car
+
+ After inserting all the cars, check if the parking lot is full
